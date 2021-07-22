@@ -31,9 +31,20 @@ Run the COde:
 > Select upto app folder and run python producer.py (this will send the data to RabbitMQ )
                                  python consumer.py (consumer takes the data present in the RabbitMQ and will update the tag in MYSQL)
                                  
-RabbitMQ server runs at : localhost:15672 (Refer images)
 
 
+## Commands to Run file
+Terminal 1
+> Feedback-Management-System-main\feedbackapi-main\core :- python fastapp.py
+
+
+Terminal 2
+> Feedback-Management-System-main\feedbackapi-main\core :- python consumer.py
+
+Terminal 3
+> Feedback-Management-System-main\feedbackapi-main :- python manage.py makemigrations
+> Feedback-Management-System-main\feedbackapi-main :- python manage.py migrate
+> Feedback-Management-System-main\feedbackapi-main :- python manage.py runserver 8080
 
 
  

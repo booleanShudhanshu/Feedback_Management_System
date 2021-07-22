@@ -1,25 +1,39 @@
+# RabbitMQAsyncTask
+## Required Installations:
 
-mysql (https://dev.mysql.com/downloads/installer/)
+> pip install pika
 
-Setup your mysql
+> pip install requests
 
-create a new database with [dbname]
+> pip install mysqlclient
+
+> pip install PyMySQL
+
+> pip install uvicorn
+
+> pip install pickle
+
+> pip install pandas
+
+> pip install -v scikit-learn==0.24.1
+
+> pip install fastapi
+
+> pip install numpy
+
+> install Erlang from : https://www.erlang.org/downloads (choose OTP 24.0 Windows 64-bit Binary File )
+
+> install RabbitMQ from : https://www.rabbitmq.com/install-windows.html (choose rabbitmq-server-3.8.17.exe)
+
+To start RabbitMQ server :go to rabbitMQ Command Prompt and type rabbitmq-server start (this will start RabbitMQ server)
+
+Run the COde:
+> Select upto app folder and run python producer.py (this will send the data to RabbitMQ )
+                                 python consumer.py (consumer takes the data present in the RabbitMQ and will update the tag in MYSQL)
+                                 
+RabbitMQ server runs at : localhost:15672 (Refer images)
 
 
-update in your feedbackapi/settings.py
 
 
-
-
-
-![WhatsApp Image 2021-06-18 at 10 07 06 PM](https://user-images.githubusercontent.com/53989623/122592292-b91d5d00-d081-11eb-8290-20806e8580b4.jpeg)
-
-
-
-
-
-<img width="960" alt="2021-06-18" src="https://user-images.githubusercontent.com/53989623/122578327-6471e600-d071-11eb-8ba8-d07d8b554c25.png">
-<img width="960" alt="2021-06-18 (1)" src="https://user-images.githubusercontent.com/53989623/122578366-6e93e480-d071-11eb-9b6a-b7c168d35db1.png">
-<img width="960" alt="2021-06-18 (2)" src="https://user-images.githubusercontent.com/53989623/122578384-72c00200-d071-11eb-9c00-8122e806231c.png">
-<img width="960" alt="2021-06-18 (3)" src="https://user-images.githubusercontent.com/53989623/122578418-794e7980-d071-11eb-9470-fd9e770429e4.png">
-![Annotation 2021-06-23 191615](https://user-images.githubusercontent.com/53989623/123108287-ee49f680-d457-11eb-873f-d9ab7992cd6d.png)
+ 

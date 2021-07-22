@@ -48,5 +48,7 @@ Terminal 3
 
 > Feedback-Management-System-main\feedbackapi-main :- python manage.py runserver 8080
 
+Terminal 4
+> npm start
 
  

@@ -42,8 +42,10 @@ Terminal 2
 > Feedback-Management-System-main\feedbackapi-main\core :- python consumer.py
 
 Terminal 3
-> Feedback-Management-System-main\feedbackapi-main :- python manage.py makemigrations
+> Feedback-Management-System-main\feedbackapi-main :- python manage.py makemigration
+
 > Feedback-Management-System-main\feedbackapi-main :- python manage.py migrate
+
 > Feedback-Management-System-main\feedbackapi-main :- python manage.py runserver 8080
 
 
